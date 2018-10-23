@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/COGC2018/Characters/Sassolina/male_cat2/male_cat2.obj</Model>
+	<ColorMap>Data/Textures/COGC2018/Characters/Sassolina_c.tga</ColorMap>
+	<NormalMap>Data/Textures/COGC2018/Characters/Sassolina_n.tga</NormalMap>
+
+	
+	
+	<ShaderName>cubemapobjchar</ShaderName>
+</Object>
