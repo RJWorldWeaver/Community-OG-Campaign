@@ -27,6 +27,8 @@
 	<Item category="Character"  title="Kaitla, Fixed"  path="Data/objects/COGC2018/Characters/fixed_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Fixed_Kaitla.png" />
 	<Item category="Character"  title="Kaitla - Guide Prefab"  path="Data/objects/COGC2018/Characters/Kaitla_guide_prefab.xml" thumbnail="Data/UI/COGC2018/spawner/Kaitla.png" />
 	<Item category="Hotspot"  title="Level-Light-Manipulator"  path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail="Data/UI/COGC2018/spawner/cateye.png" />
-
+	
+	<Level title="Going Coastal Terrain Demo" thumbnail="Images/COGC2018/thumb.jpg">COGC2018/01_Going_coastal/01_Going_coastal.xml</Level>
+    
 	
 </Mod>
