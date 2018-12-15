@@ -8,23 +8,38 @@
     <Image></Image>
 </LoadingScreen>
 <Terrain>
-    <Heightmap>Data/Textures/COGC2018/Terrain/Going_Coastal/going_Coastal_hm.png</Heightmap>
-    <ShaderExtra></ShaderExtra>
+    <Heightmap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_hm.png</Heightmap>
+    <ShaderExtra>#TERRAIN_NO_EDGE_FADE</ShaderExtra>
     <DetailMap></DetailMap>
-    <ColorMap>Data/Textures/COGC2018/Terrain/Going_Coastal/going_coastal_c.tga</ColorMap>
-    <WeightMap>Data/Textures/COGC2018/Terrain/Going_Coastal/going_Coastal_w.tga</WeightMap>
+    <ColorMap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_c.png</ColorMap>
+    <WeightMap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_w.tga</WeightMap>
+    <ModelOverride>Data/models/COGC2018/Terrain/going_coastal.obj</ModelOverride>
     <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/sandwaves.tga" normalpath="Data/Textures/Terrain/DetailTextures/sandwaves_normal.tga" materialpath="Data/Materials/sand.xml" />
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/black_rock.tga" normalpath="Data/Textures/Terrain/DetailTextures/black_rock_normal.tga" materialpath="Data/Materials/rock.xml" />
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/dirt_rubble.tga" normalpath="Data/Textures/Terrain/DetailTextures/dirt_rubble_normal.tga" materialpath="Data/Materials/rock.xml" />
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/grass.xml" />
-        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/sandwaves.tga" normalpath="Data/Textures/Terrain/DetailTextures/sandwaves_normal.tga" materialpath="Data/Materials/sand.xml" />
     </DetailMaps>
     <DetailObjects>
-	
- 
-		
-		
-	</DetailObjects>
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/ForkedWeed.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="1" density="0.15" min_embed="0.01" max_embed="0" min_scale="0.5" max_scale="1" view_distance="15" jitter_degrees="5" overbright="0" tint_weight="0.75" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/WildGrass.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0" density="0.75" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1.5" view_distance="40" jitter_degrees="10" overbright="0" tint_weight="0.9" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/fall_tall_grass.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0" density="0.45" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1.5" view_distance="30" jitter_degrees="10" overbright="0" tint_weight="0.5" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/tall_wild_grass.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0" density="0.65" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1.5" view_distance="75" jitter_degrees="10" overbright="0" tint_weight="0.75" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/brushgrass_clump.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0" density="0.75" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1.5" view_distance="25" jitter_degrees="15" overbright="-0.25" tint_weight="0.75" />
+        <DetailObject obj_path="Data/GrassTest/grass_square.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0" density="1" min_embed="0" max_embed="0.5" min_scale="0.7" max_scale="2" view_distance="20" jitter_degrees="15" overbright="1" tint_weight="0.4" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_e.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.9" density="0.05" min_embed="0" max_embed="0.4" min_scale="0.125" max_scale="0.7" view_distance="30" jitter_degrees="10" overbright="-0.375" tint_weight="0.75" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_c.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.9" density="0.1" min_embed="0" max_embed="0.4" min_scale="0.25" max_scale="0.8" view_distance="75" jitter_degrees="10" overbright="-0.25" tint_weight="0.75" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_a.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="1" density="2.5" min_embed="0.3" max_embed="0.7" min_scale="0.1" max_scale="0.25" view_distance="25" jitter_degrees="20" overbright="0.1" tint_weight="0.8" />
+        <DetailObject obj_path="Data/Objects/COGC2018/Plants/Tintable_sapling.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.8" density="0.02" min_embed="0.01" max_embed="1" min_scale="0.25" max_scale="2" view_distance="50" jitter_degrees="10" overbright="0" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/COGC2018/Plants/Tintable_small_tree.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.8" density="0.02" min_embed="0.01" max_embed="1" min_scale="0.25" max_scale="1" view_distance="150" jitter_degrees="10" overbright="0" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Plants/Trees/temperate/short_bush.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.8" density="0.01" min_embed="0.25" max_embed="1" min_scale="0.125" max_scale="0.5" view_distance="50" jitter_degrees="10" overbright="0" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Plants/Trees/temperate/green_bush.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.8" density="0.02" min_embed="0.25" max_embed="1" min_scale="0.125" max_scale="0.75" view_distance="150" jitter_degrees="10" overbright="0" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Plants/Trees/temperate/thick_bush.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_grass.png" normal_conform="0.8" density="0.02" min_embed="0.25" max_embed="1" min_scale="0.125" max_scale="0.75" view_distance="50" jitter_degrees="10" overbright="0" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_a.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_sand.png" normal_conform="1" density="2.5" min_embed="0.3" max_embed="0.7" min_scale="0.05" max_scale="0.125" view_distance="50" jitter_degrees="20" overbright="0.1" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_e.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_sand.png" normal_conform="0.9" density="0.002" min_embed="0" max_embed="0.4" min_scale="0.125" max_scale="0.7" view_distance="50" jitter_degrees="10" overbright="-1" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Environment/Rocks/lichen_rock_c.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_sand.png" normal_conform="0.9" density="0.002" min_embed="0" max_embed="0.4" min_scale="0.25" max_scale="0.75" view_distance="75" jitter_degrees="10" overbright="-1" tint_weight="1" />
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/brushgrass_clump.xml" weight_path="Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_sand.png" normal_conform="0" density="0.01" min_embed="0" max_embed="0.4" min_scale="0.7" max_scale="1.5" view_distance="50" jitter_degrees="15" overbright="-1" tint_weight="1" />
+    </DetailObjects>
 </Terrain>
 <OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
 <AmbientSounds />
@@ -32,7 +47,7 @@
 <LevelScriptParameters>
     <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
     <parameter name="Custom Shader" type="string" val="#WATER_HORIZON #ALT #BEACH" />
-    <parameter name="Fog amount" type="float" val="1.2" />
+    <parameter name="Fog amount" type="float" val="0.6" />
     <parameter name="GPU Particle Field" type="string" val="" />
     <parameter name="HDR Black point" type="float" val="0.1" />
     <parameter name="HDR Bloom multiplier" type="float" val="1.5" />
@@ -53,10 +68,10 @@
     <RayToSun r0="0.534678" r1="0.816271" r2="-0.218681" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-127.346" t1="44.4079" t2="-232.934" s0="1" s1="1" s2="1" q0="-0.0937974" q1="0.7301" q2="0.10235" q3="0.669089" euler_x="2.86304" euler_y="1.48364" euler_z="-3.14159" id="1">
+    <CameraObject t0="-85.2285" t1="121.294" t2="200.436" s0="1" s1="1" s2="1" q0="0.000805669" q1="0.999187" q2="-0.0265884" q3="0.0302764" euler_x="-3.08839" euler_y="0.0605835" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
-    <ActorObject t0="297.186" t1="27.4721" t2="288.085" s0="1" s1="1" s2="1" q0="-0.0382866" q1="0.0936488" q2="0.0501723" q3="0.993604" euler_x="-0.0679751" euler_y="0.191103" euler_z="0.0943876" id="2" type_file="Data/objects/COGC2018/Characters/kaitla_actor.xml" is_player="1">
+    <ActorObject t0="294.991" t1="138.293" t2="312.751" s0="1" s1="1" s2="1" q0="-0.0382866" q1="0.0936488" q2="0.0501723" q3="0.993604" euler_x="-0.0679751" euler_y="0.191103" euler_z="0.0943876" id="2" type_file="Data/objects/COGC2018/Characters/kaitla_actor.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="0.9" />
@@ -68,7 +83,12 @@
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.1" />
             <parameter name="Ear Size" type="float" val="0.30769" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -77,12 +97,18 @@
             <parameter name="Left handed" type="int" val="1" />
             <parameter name="Movement Speed" type="float" val="1.1" />
             <parameter name="Muscle" type="float" val="0.55" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="rabbit" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="2" />
@@ -193,12 +219,12 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <ReflectionCaptureObject t0="-267.897" t1="154.104" t2="261.253" s0="127.687" s1="127.119" s2="154.564" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" gicoeff00="0.509399" gicoeff01="0.635132" gicoeff02="0.529053" gicoeff03="0.272461" gicoeff04="0.373047" gicoeff05="0.339478" gicoeff06="0.368164" gicoeff07="0.553528" gicoeff08="0.581055" gicoeff09="0.388367" gicoeff10="0.428528" gicoeff11="0.257538" gicoeff12="0.293091" gicoeff13="0.402771" gicoeff14="0.380127" gicoeff15="0.441589" gicoeff16="0.560791" gicoeff17="0.461731">
+    <ReflectionCaptureObject t0="-263.506" t1="343.782" t2="271.643" s0="127.687" s1="127.119" s2="154.564" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" gicoeff00="0.356018" gicoeff01="0.472107" gicoeff02="0.438721" gicoeff03="0.175323" gicoeff04="0.2724" gicoeff05="0.286743" gicoeff06="0.349915" gicoeff07="0.53302" gicoeff08="0.568726" gicoeff09="0.108932" gicoeff10="0.140671" gicoeff11="0.108292" gicoeff12="0.219055" gicoeff13="0.321228" gicoeff14="0.327393" gicoeff15="0.286438" gicoeff16="0.399719" gicoeff17="0.383362">
         <parameters>
             <parameter name="Global" type="string" val="1" />
         </parameters>
     </ReflectionCaptureObject>
-    <Hotspot t0="-98.836" t1="-183.6" t2="344.463" s0="1024" s1="100" s2="256" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="8" type_file="Data/Objects/Hotspots/wet_cube.xml">
+    <Hotspot t0="0" t1="16" t2="0" s0="1024" s1="1" s2="1024" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="8" type_file="Data/Objects/Hotspots/wet_cube.xml">
         <parameters>
             <parameter name="Water Fog" type="float" val="1" />
             <parameter name="Wave Density" type="float" val="0.25" />
@@ -207,10 +233,10 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <ItemObject t0="296.583" t1="26.2966" t2="289.617" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="19" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="289.149" t1="155.466" t2="307.714" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="19" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ActorObject t0="298.318" t1="27.5605" t2="287.269" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="23" type_file="Data/Objects/IGF_Characters/IGF_RabbitCivActor.xml" is_player="0">
+    <ActorObject t0="296.123" t1="138.382" t2="311.935" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="23" type_file="Data/Objects/IGF_Characters/IGF_RabbitCivActor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.25" />
             <parameter name="Attack Damage" type="float" val="0.9" />
@@ -222,7 +248,12 @@
             <parameter name="Character Scale" type="float" val="0.95" />
             <parameter name="Damage Resistance" type="float" val="0.71795" />
             <parameter name="Ear Size" type="float" val="1.55385" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.615385" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -231,12 +262,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="0.9" />
             <parameter name="Muscle" type="float" val="0.45128" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="rabbit" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="2" />
@@ -244,7 +281,7 @@
         <ItemConnections />
         <Palette />
     </ActorObject>
-    <ActorObject t0="-92.072" t1="22.6961" t2="194.989" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="24" type_file="Data/objects/COGC2018/Characters/Cobaia_actor.xml" is_player="0">
+    <ActorObject t0="-92.6523" t1="108.523" t2="218.522" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="24" type_file="Data/objects/COGC2018/Characters/Cobaia_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="1" />
             <parameter name="Attack Damage" type="float" val="1.25" />
@@ -256,7 +293,12 @@
             <parameter name="Character Scale" type="float" val="1.05" />
             <parameter name="Damage Resistance" type="float" val="1.5" />
             <parameter name="Ear Size" type="float" val="0.21538" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -265,12 +307,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="1.25" />
             <parameter name="Muscle" type="float" val="0.55" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="cat" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="cat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="28" />
@@ -280,7 +328,7 @@
         </ItemConnections>
         <Palette />
     </ActorObject>
-    <ActorObject t0="-88.6693" t1="24.6784" t2="184.529" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="28" type_file="Data/objects/COGC2018/Characters/Drago_actor.xml" is_player="0">
+    <ActorObject t0="-89.2496" t1="110.506" t2="208.062" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="28" type_file="Data/objects/COGC2018/Characters/Drago_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.3" />
             <parameter name="Attack Damage" type="float" val="1.5" />
@@ -292,7 +340,12 @@
             <parameter name="Character Scale" type="float" val="1.1" />
             <parameter name="Damage Resistance" type="float" val="2" />
             <parameter name="Ear Size" type="float" val="1.24615" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.502565" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.436333" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -301,12 +354,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="1.1" />
             <parameter name="Muscle" type="float" val="0.59487" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="25" />
             <parameter name="Peripheral FOV horizontal" type="float" val="0.785399" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="cat" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="cat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="28" />
@@ -316,13 +375,13 @@
         </ItemConnections>
         <Palette />
     </ActorObject>
-    <ItemObject t0="-88.3054" t1="20.6487" t2="196.025" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="32" type_file="Data/Items/MainGauche.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-96.7455" t1="118.406" t2="209.942" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="32" type_file="Data/Items/MainGauche.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ItemObject t0="-87.3024" t1="20.6732" t2="194.287" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="33" type_file="Data/Items/Rapier.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-95.7425" t1="118.43" t2="208.204" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="33" type_file="Data/Items/Rapier.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ActorObject t0="-85.8154" t1="21.6508" t2="195.094" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="34" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+    <ActorObject t0="-86.3957" t1="107.478" t2="218.627" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="34" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.45" />
             <parameter name="Attack Damage" type="float" val="0.9" />
@@ -334,7 +393,12 @@
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.25" />
             <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.45128" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -343,12 +407,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="1" />
             <parameter name="Muscle" type="float" val="0.4" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="cat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="28" />
@@ -361,7 +431,7 @@
             <Color label="Leather" channel="3" red="4.79341" green="4.28681" blue="4.90196" />
         </Palette>
     </ActorObject>
-    <ActorObject t0="-84.3929" t1="21.9075" t2="184.267" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="39" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+    <ActorObject t0="-84.9732" t1="107.735" t2="207.8" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="39" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="1.25" />
@@ -373,7 +443,12 @@
             <parameter name="Character Scale" type="float" val="1.05" />
             <parameter name="Damage Resistance" type="float" val="1.5" />
             <parameter name="Ear Size" type="float" val="2.46154" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.523075" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -382,12 +457,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="1.02615" />
             <parameter name="Muscle" type="float" val="0.666665" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="cat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="28" />
@@ -402,10 +483,10 @@
             <Color label="Leather" channel="3" red="4.01569" green="0" blue="0" />
         </Palette>
     </ActorObject>
-    <ItemObject t0="-86.7433" t1="20.9747" t2="182.297" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="43" type_file="Data/Items/rabbit_weapons/rabbit_knife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-87.0175" t1="119.86" t2="205.962" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="43" type_file="Data/Items/rabbit_weapons/rabbit_knife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ActorObject t0="299.549" t1="26.8021" t2="286.707" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="46" type_file="Data/Objects/characters/rabbits/female_rabbit_3_actor.xml" is_player="0">
+    <ActorObject t0="297.354" t1="137.623" t2="311.373" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="46" type_file="Data/Objects/characters/rabbits/female_rabbit_3_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.29231" />
             <parameter name="Attack Damage" type="float" val="0.67692" />
@@ -417,7 +498,12 @@
             <parameter name="Character Scale" type="float" val="0.94872" />
             <parameter name="Damage Resistance" type="float" val="0.78974" />
             <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.54872" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
@@ -426,12 +512,18 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="0.89692" />
             <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
             <parameter name="Teams" type="string" val="rabbit" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
             <Connection id="2" />
