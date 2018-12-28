@@ -1,0 +1,10 @@
+"Kaitla"    color 0.35 0.8 0.35 voice 7
+"Aspen"       color 0.1 0.4 0.101   voice 8
+"Violet"     color 0.375 0.172 0.472   voice 12
+"Drago"     color 0.500 0.9 0.909   voice 1
+"Kestrel"     color 0.266 0.388 0.25   voice 2
+"Chestnut" color 0.917 0.643 0.054   voice 3
+"Daino" color 0.305 0.275 0.440   voice 4
+"Cobaia" color 0.682 0.176 0.133 voice 5
+"Verdo" color 0.188 0.584 0.576 voice 6
+"Coleo" color 0.517 0.286 0.082 voice 7
