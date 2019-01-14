@@ -12,7 +12,7 @@
     <ShaderExtra>#TERRAIN_NO_EDGE_FADE</ShaderExtra>
     <DetailMap></DetailMap>
     <ColorMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_c.png</ColorMap>
-    <WeightMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_w.png</WeightMap>
+    <WeightMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_w.tga</WeightMap>
     <ModelOverride>Data/models/COGC2018/Terrain/Rabbit_Marshlands.obj</ModelOverride>
     <DetailMaps>
         <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_n.tga" materialpath="Data/Materials/dirt.xml" />
@@ -72,10 +72,10 @@
     <RayToSun r0="-0.615838" r1="0.261188" r2="-0.74332" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-906.885" t1="288.004" t2="101.632" s0="1" s1="1" s2="1" q0="-0.15766" q1="-0.524836" q2="0.0996312" q3="-0.830521" euler_x="0.375202" euler_y="1.12714" euler_z="0" id="1">
+    <CameraObject t0="-902.669" t1="284.153" t2="103.789" s0="1" s1="1" s2="1" q0="0.290875" q1="0.508114" q2="-0.187387" q3="0.788732" euler_x="0.706628" euler_y="1.1446" euler_z="0" id="1">
         <parameters />
     </CameraObject>
-    <Hotspot t0="-232.154" t1="-49.501" t2="475.147" s0="1024" s1="25" s2="1024" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" type_file="Data/Objects/Hotspots/wet_cube.xml">
+    <Hotspot t0="0" t1="-513.931" t2="0" s0="1024" s1="256" s2="1024" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" type_file="Data/Objects/Hotspots/wet_cube.xml">
         <parameters>
             <parameter name="Water Fog" type="float" val="1" />
             <parameter name="Wave Density" type="float" val="0.5" />
@@ -106,14 +106,27 @@
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
             <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Hearing Modifier" type="float" val="1" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Morph - Femininity" type="float" val="0" />
+            <parameter name="Morph - Muzzle Base Width" type="float" val="0" />
+            <parameter name="Morph - Muzzle Length" type="float" val="0" />
+            <parameter name="Morph - Muzzle Tip Width" type="float" val="0" />
+            <parameter name="Morph - Neck Back" type="float" val="0" />
+            <parameter name="Morph - Neck Waddle" type="float" val="0" />
+            <parameter name="Morph - Neck Width" type="float" val="0" />
+            <parameter name="Morph - Nose Size" type="float" val="0" />
+            <parameter name="Morph - Pointy Ears" type="float" val="0" />
+            <parameter name="Morph - Tail Bushiness" type="float" val="0" />
+            <parameter name="Morph - jowl" type="float" val="0" />
             <parameter name="Movement Speed" type="float" val="1" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Sneaky" type="int" val="0" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
             <parameter name="Stick To Nav Mesh" type="int" val="0" />
@@ -129,434 +142,11 @@
         <ItemConnections />
         <Palette />
     </ActorObject>
-    <Hotspot t0="-120.384" t1="-6.732" t2="199.186" s0="10" s1="5" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="6" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-169.893" t1="-4.37545" t2="226.452" s0="10" s1="5" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="12" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
     <ReflectionCaptureObject t0="-115.45" t1="152.441" t2="-8.38734" s0="24.491" s1="24.491" s2="24.491" q0="-0.227245" q1="0.0614503" q2="0.539587" q3="0.808349" euler_x="-0.326482" euler_y="0.351795" euler_z="1.11865" id="14" gicoeff00="0.266968" gicoeff01="0.35437" gicoeff02="0.360962" gicoeff03="0.409668" gicoeff04="0.514526" gicoeff05="0.509644" gicoeff06="0.509644" gicoeff07="0.672241" gicoeff08="0.697266" gicoeff09="0.13063" gicoeff10="0.161774" gicoeff11="0.145386" gicoeff12="0.394897" gicoeff13="0.495178" gicoeff14="0.494873" gicoeff15="0.300537" gicoeff16="0.39502" gicoeff17="0.396545">
         <parameters>
             <parameter name="Global" type="string" val="1" />
         </parameters>
     </ReflectionCaptureObject>
-    <Hotspot t0="-226.396" t1="-8.80592" t2="271.233" s0="12.2802" s1="6.14012" s2="12.2802" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="16" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-298.713" t1="-6.99958" t2="288.293" s0="12.47" s1="6.14012" s2="24.484" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="19" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-352.53" t1="-8.27028" t2="306.98" s0="10.0588" s1="6.14012" s2="11.6355" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="22" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-223.573" t1="-6.99851" t2="168.459" s0="7.85857" s1="6.14012" s2="10.7107" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="25" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-165.111" t1="-7.68992" t2="97.4971" s0="7.25273" s1="6.14012" s2="18.8978" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="28" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-127.941" t1="-8.88922" t2="118.158" s0="9.02043" s1="6.14012" s2="10.4578" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="31" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-333.607" t1="-7.0563" t2="38.9765" s0="11.0851" s1="6.14012" s2="17.0437" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="34" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-363.919" t1="-7.75865" t2="122.472" s0="9.92881" s1="6.14012" s2="9.7059" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="37" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-442.941" t1="-10.501" t2="-162.228" s0="9.19161" s1="6.14012" s2="9.63953" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="40" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-453.604" t1="-8.51658" t2="-218.304" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="43" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-444.466" t1="-9.62978" t2="-285.982" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="46" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-414.938" t1="-8.40921" t2="-242.346" s0="8.16972" s1="6.14012" s2="10.832" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="49" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-377.856" t1="-6.95913" t2="-202.191" s0="7.25646" s1="6.14012" s2="6.70104" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="52" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-222.705" t1="-10.9197" t2="-331.993" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.916684" q2="0" q3="0.399612" euler_x="3.14159" euler_y="-0.822187" euler_z="3.14159" id="55" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-171.733" t1="-4.67113" t2="-449.658" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="58" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-28.2094" t1="-8.29515" t2="-401.745" s0="8.95345" s1="6.14012" s2="15.2879" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="60" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-166.308" t1="-8.19774" t2="-256.614" s0="8.55436" s1="6.14012" s2="7.38888" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="61" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="23.7747" t1="-7.10577" t2="-409.43" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="64" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="11.4513" t1="-7.47701" t2="-163.48" s0="7.02253" s1="6.14012" s2="9.4635" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="70" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="26.1079" t1="-8.45464" t2="-128.675" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="73" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="70.738" t1="-8.32605" t2="-165.075" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="76" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="114.641" t1="-6.89343" t2="-127.533" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="79" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="158.202" t1="-7.47523" t2="-142.085" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="82" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-22.6097" t1="-7.15552" t2="-107.393" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="85" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="15.7395" t1="-6.69129" t2="-75.4039" s0="12.091" s1="6.14012" s2="9.83023" q0="0" q1="-0.221969" q2="0" q3="0.975054" euler_x="0" euler_y="-0.447667" euler_z="0" id="88" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-27.019" t1="-5.98529" t2="-52.6366" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="91" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-10.8156" t1="-6.05577" t2="-15.5552" s0="8.24432" s1="6.14012" s2="7.80375" q0="0" q1="-0.0198201" q2="0" q3="0.999804" euler_x="0" euler_y="-0.0396428" euler_z="0" id="94" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="38.123" t1="-7.25781" t2="0.095129" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="97" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="47.2" t1="-9.07" t2="77.9545" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="100" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="99.578" t1="-9.48557" t2="-33.1322" s0="10.2642" s1="6.14012" s2="15.5321" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="103" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="136.356" t1="-8.7585" t2="5.33772" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="106" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="192.651" t1="-7.59732" t2="-36.4618" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="109" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="201.493" t1="-8.12031" t2="-87.949" s0="9.44789" s1="6.14012" s2="9.21799" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="112" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="284.98" t1="-8.51452" t2="-3.83808" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="115" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="224.795" t1="-6.81245" t2="0.0972242" s0="12.5509" s1="6.14012" s2="17.138" q0="0" q1="-0.558841" q2="0" q3="0.829275" euler_x="0" euler_y="-1.18598" euler_z="0" id="118" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="226.607" t1="-9.37523" t2="64.7927" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="121" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="124.36" t1="-6.85607" t2="50.4986" s0="12.1016" s1="6.14012" s2="9.74419" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="124" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="147.783" t1="-6.57289" t2="95.7064" s0="10.4088" s1="6.14012" s2="8.57586" q0="0" q1="-0.755688" q2="0" q3="0.654932" euler_x="3.14159" euler_y="-1.42819" euler_z="3.14159" id="127" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="107.962" t1="-6.64949" t2="93.6859" s0="9.1463" s1="6.14012" s2="8.29737" q0="0" q1="-0.191057" q2="0" q3="0.981579" euler_x="0" euler_y="-0.384478" euler_z="0" id="130" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="392.167" t1="-8.04537" t2="165.747" s0="8.6951" s1="6.14012" s2="7.66097" q0="0" q1="-0.668846" q2="0" q3="0.743401" euler_x="0" euler_y="-1.46531" euler_z="0" id="133" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="353.24" t1="-9.30159" t2="232.959" s0="9.09375" s1="6.14012" s2="9.68516" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="136" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="117.536" t1="-9.50123" t2="-193.346" s0="7.02253" s1="6.14012" s2="9.4635" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="139" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-119.727" t1="-6.79633" t2="38.9729" s0="7.02253" s1="6.14012" s2="9.4635" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="142" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-146.77" t1="-6.6257" t2="3.20859" s0="7.02253" s1="6.14012" s2="9.4635" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="145" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="-173.752" t1="-9.48799" t2="-55.3562" s0="9.63387" s1="6.14012" s2="9.40447" q0="0" q1="-0.446974" q2="0" q3="0.894547" euler_x="0" euler_y="-0.92676" euler_z="0" id="148" type_file="Data/Objects/Hotspots/wet_cube.xml">
-        <parameters>
-            <parameter name="Water Fog" type="float" val="1" />
-            <parameter name="Wave Density" type="float" val="0.5" />
-            <parameter name="Wave Height" type="float" val="0.5" />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Water" path="Data/Objects/Hotspots/wet_cube.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
