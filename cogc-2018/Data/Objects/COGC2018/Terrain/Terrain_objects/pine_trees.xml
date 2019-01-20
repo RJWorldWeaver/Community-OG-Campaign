@@ -2,7 +2,7 @@
 <Object>
 
 <Model>Data/Models/COGC2018/Terrain/terrain_objects/pine_trees.obj</Model>
-	<ColorMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_trees_c.tga</ColorMap>
+	<ColorMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_trees_c.png</ColorMap>
 	<NormalMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_trees_n.png</NormalMap>
 
 	<ShaderName>envobject #TANGENT #ALPHA</ShaderName>

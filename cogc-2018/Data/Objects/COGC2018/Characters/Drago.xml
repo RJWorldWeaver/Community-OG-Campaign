@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Object>
 	<Model>Data/Models/Characters/cats/male_cat/male_cat.obj</Model>
-	<ColorMap>Data/Textures/COGC2018/characters/drago_c.tga</ColorMap>
-	<NormalMap>Data/Textures/COGC2018/Characters/drago_n.tga</NormalMap>
+	<ColorMap>Data/Textures/COGC2018/characters/drago_c.png</ColorMap>
+	<NormalMap>Data/Textures/COGC2018/Characters/drago_n.png</NormalMap>
 	<ShaderName>cubemapobjchar</ShaderName>
 </Object>

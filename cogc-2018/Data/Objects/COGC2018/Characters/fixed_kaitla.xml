@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <Object>
 	<Model>Data/Models/Characters/rabbits/female_rabbit/female_rabbit.obj</Model>
-	<ColorMap>Data/Textures/COGC2018/Characters/fixed_Kaitla_C.tga</ColorMap>
-	<NormalMap>Data/Textures/COGC2018/Characters/fixed_Kaitla_N.tga</NormalMap>
+	<ColorMap>Data/Textures/COGC2018/Characters/fixed_Kaitla_C.png</ColorMap>
+	<NormalMap>Data/Textures/COGC2018/Characters/fixed_Kaitla_N.png</NormalMap>
 	
 	<ShaderName>cubemapobjchar</ShaderName>
 </Object>
