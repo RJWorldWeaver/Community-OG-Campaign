@@ -1175,7 +1175,7 @@
             <Connection id="23" />
         </Connections>
     </PlaceholderObject>
-    <Hotspot t0="-511.865" t1="65.6372" t2="-203.106" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0.0993994" q3="0.995048" euler_x="0" euler_y="0" euler_z="0.199128" id="145" type_file="Data/XMLStuff/MNGsLevelHotspot.xml">
+    <Hotspot t0="-511.865" t1="65.6372" t2="-203.106" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0.0993994" q3="0.995048" euler_x="0" euler_y="0" euler_z="0.199128" id="145" type_file="Data/objects/COGC2018/Hotspots/MNGsLevelHotspot.xml">
         <parameters>
             <parameter name="Dth_Stng" type="string" val='&quot;Data/Music/COGC2018/Coastal_loop/slaver_loop/coastal_lose.ogg&quot;' />
             <parameter name="Succ_Stng" type="string" val='&quot;Data/Music/COGC2018/Coastal_loop/slaver_loop/coastal_win.ogg&quot;' />
@@ -2591,7 +2591,7 @@
     <SpawnerItem display_name="Cliff Rock 03 lichen" path="Data/Objects/Environment/Cliffs/CliffRock_03_lichen.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_03.png" />
     <SpawnerItem display_name="Coast Rock Large" path="Data/Objects/Environment/Rocks/coast_rock_large.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/coast_rock_large.png" />
     <SpawnerItem display_name="MNGsLvlLightManipulator.xml" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="MNGs Level Hotspot" path="Data/XMLStuff/MNGsLevelHotspot.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
+    <SpawnerItem display_name="MNGs Level Hotspot" path="Data/objects/COGC2018/Hotspots/MNGsLevelHotspot.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
     <SpawnerItem display_name="Overgrowth Checkpoint Hotspot" path="Data/Objects/Hotspots/overgrowth_level_checkpoint.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
     <SpawnerItem display_name="Rabbit Blood Footprint" path="Data/Objects/Decals/footprints/rabbit_blood_footprint.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/footprints/rabbitbloodprint.png" />
     <SpawnerItem display_name="Dripping Rust Spot" path="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/dripping_rust_spot.png" />
