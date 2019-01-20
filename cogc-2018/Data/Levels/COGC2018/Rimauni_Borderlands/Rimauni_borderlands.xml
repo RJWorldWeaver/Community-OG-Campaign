@@ -15,10 +15,10 @@
     <WeightMap>Data/Textures/COGC2018/Terrain/Rimauni_borderlands/Rimauni_borderlands_w.png</WeightMap>
     <ModelOverride>Data/models/COGC2018/Terrain/Rimauni_borderlands.obj</ModelOverride>
     <DetailMaps>
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_gravel_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_gravel_n.tga" materialpath="Data/Materials/dirtyrock.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_gravel_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_gravel_n.png" materialpath="Data/Materials/dirtyrock.xml" />
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/dead_grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/dead_grass_normal.tga" materialpath="Data/Materials/drygrass.xml" />
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/rocky_cliff_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/rocky_cliff_n.tga" materialpath="Data/Materials/rocks.xml" />
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_ground_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_ground_n.tga" materialpath="Data/Materials/sand.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/rocky_cliff_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/rocky_cliff_n.png" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_ground_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/Desert_ground_n.png" materialpath="Data/Materials/sand.xml" />
     </DetailMaps>
     <DetailObjects>
         <DetailObject obj_path="Data/Objects/Plants/Groundcover/ForkedWeed.xml" weight_path="Data/Textures/COGC2018/Terrain/Rimauni_borderlands/Rimauni_borderlands_grass_mask.png" normal_conform="1" density="0.15" min_embed="0.01" max_embed="0" min_scale="0.5" max_scale="1" view_distance="15" jitter_degrees="5" overbright="0" tint_weight="0.75" />

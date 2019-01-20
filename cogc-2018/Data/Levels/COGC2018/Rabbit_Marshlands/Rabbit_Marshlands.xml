@@ -12,13 +12,13 @@
     <ShaderExtra>#TERRAIN_NO_EDGE_FADE</ShaderExtra>
     <DetailMap></DetailMap>
     <ColorMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_c.png</ColorMap>
-    <WeightMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_w.tga</WeightMap>
+    <WeightMap>Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_w.png</WeightMap>
     <ModelOverride>Data/models/COGC2018/Terrain/Rabbit_Marshlands.obj</ModelOverride>
     <DetailMaps>
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_n.tga" materialpath="Data/Materials/dirt.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/drying_mud_n.png" materialpath="Data/Materials/dirt.xml" />
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass_stones_c.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_stones_n.tga" materialpath="Data/Materials/drygrass.xml" />
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/pebble_dirt_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/pebble_dirt_n.tga" materialpath="Data/Materials/dirtyrock.xml" />
-        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/jagged_rock_mossy_c.tga" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/jagged_rock_mossy_n.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/pebble_dirt_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/pebble_dirt_n.png" materialpath="Data/Materials/dirtyrock.xml" />
+        <DetailMap colorpath="Data/Textures/COGC2018/Terrain/DetailTextures/jagged_rock_mossy_c.png" normalpath="Data/Textures/COGC2018/Terrain/DetailTextures/jagged_rock_mossy_n.png" materialpath="Data/Materials/rocks.xml" />
     </DetailMaps>
     <DetailObjects>
         <DetailObject obj_path="Data/Objects/Plants/Groundcover/ForkedWeed.xml" weight_path="Data/Textures/COGC2018/Terrain/Rabbit_Marshlands/Rabbit_Marshlands_vegitation.png" normal_conform="1" density="0.15" min_embed="0.01" max_embed="0" min_scale="0.5" max_scale="1" view_distance="15" jitter_degrees="5" overbright="0" tint_weight="1" />

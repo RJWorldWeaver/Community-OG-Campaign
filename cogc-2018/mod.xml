@@ -1,23 +1,23 @@
 <?xml version="1.0" ?>
 <Mod>
-      <Id>cogc-2018</Id> 
+      <Id>cogc-2018</Id>
       <Name>2018 Community Overgrowth Campaign</Name>
 
     <Category>Campaign</Category>
 
     <Thumbnail>Data/Images/COGC2018/thumb.jpg</Thumbnail>
     <PreviewImage>Data/Images/COGC2018/full.jpg</PreviewImage>
-    
+
     <Description>2018 Community Overgrowth Campaign.</Description>
     <Version>1.0.0</Version>
     <Author>The Overgrowth Community</Author>
 
     <Tag>Campaign</Tag>
-	
+
     <SupportedVersion>*</SupportedVersion>
 
     <NeedsRestart>false</NeedsRestart>
-	
+
 	<Item category="Character"  title="Sassolina"  path="Data/objects/COGC2018/Characters/Sassolina_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Sassolina.png" />
 	<Item category="Character"  title="Cobaia"  path="Data/objects/COGC2018/Characters/Cobaia_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Cobaia.png" />
 	<Item category="Character"  title="Drago"  path="Data/objects/COGC2018/Characters/Drago_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Drago.png" />
@@ -26,11 +26,13 @@
 	<Item category="Character"  title="Kaitla, Bandaged"  path="Data/objects/COGC2018/Characters/bandaged_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/bandaged_Kaitla.png" />
 	<Item category="Character"  title="Kaitla, Fixed"  path="Data/objects/COGC2018/Characters/fixed_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Fixed_Kaitla.png" />
 	<Item category="Character"  title="Kaitla - Guide Prefab"  path="Data/objects/COGC2018/Characters/Kaitla_guide_prefab.xml" thumbnail="Data/UI/COGC2018/spawner/Kaitla.png" />
-	<Item category="Hotspot"  title="Level-Light-Manipulator"  path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail="Data/UI/COGC2018/spawner/cateye.png" />
-	<Item category="Hotspot" title="Level Light Manipulator Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail=""/>
-	
+	<Item category="Hotspot" title="Level Lighting Manipulator Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail="Data/UI/COGC2018/spawner/cateye.png"/>
+  <Item category="Hotspot" title="MNGs Level Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLevelHotspot.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
+  <Item category="Hotspot" title="MNGs Start Dialogue Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsStartDialogue.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
+  <Item category="Hotspot" title="Drika Hotspot" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail="Data/Images/COGC2018/drika_hotspot_thumb.jpg" />
+
 	<Level title="Going Coastal Terrain Demo" thumbnail="Images/COGC2018/thumb.jpg">COGC2018/01_Going_coastal/01_Going_coastal.xml</Level>
 	<Level title="Going Coastal Terrain Demo" thumbnail="Images/COGC2018/thumb.jpg">COGC2018/Rabbit_Marshlands/Rabbit_Marshlands.xml</Level>
-    
-	
+
+
 </Mod>

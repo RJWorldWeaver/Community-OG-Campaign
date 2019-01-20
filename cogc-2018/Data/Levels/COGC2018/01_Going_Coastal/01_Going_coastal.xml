@@ -12,7 +12,7 @@
     <ShaderExtra>#TERRAIN_NO_EDGE_FADE</ShaderExtra>
     <DetailMap></DetailMap>
     <ColorMap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_c.png</ColorMap>
-    <WeightMap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_w.tga</WeightMap>
+    <WeightMap>Data/Textures/COGC2018/Terrain/Going_Coastal/Going_Coastal_w.png</WeightMap>
     <ModelOverride>Data/models/COGC2018/Terrain/going_coastal.obj</ModelOverride>
     <DetailMaps>
         <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/sandwaves.tga" normalpath="Data/Textures/Terrain/DetailTextures/sandwaves_normal.tga" materialpath="Data/Materials/sand.xml" />
@@ -31,7 +31,7 @@
 </Terrain>
 <OutOfDate NavMesh="true" NavMeshParamHash="-1445590171" />
 <AmbientSounds />
-<Script>Data/MACHINERY/MNGsLevelScript.as</Script>
+<Script>COGC2018/MNG_Dialogue/MNGsLevelScript.as</Script>
 <LevelScriptParameters>
     <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
     <parameter name="Custom Shader" type="string" val="#COASTAL" />
@@ -2591,8 +2591,8 @@
     <SpawnerItem display_name="Cliff Rock 03 lichen" path="Data/Objects/Environment/Cliffs/CliffRock_03_lichen.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_03.png" />
     <SpawnerItem display_name="Coast Rock Large" path="Data/Objects/Environment/Rocks/coast_rock_large.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/coast_rock_large.png" />
     <SpawnerItem display_name="MNGsLvlLightManipulator.xml" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="MNGs Level Hotspot" path="Data/XMLStuff/MNGsLevelHotspot.xml" thumbnail_path="Data/IMAGES/loadpreview.png" />
-    <SpawnerItem display_name="Overgrowth Checkpoint Hotspot" path="Data/Objects/Hotspots/overgrowth_level_checkpoint.xml" thumbnail_path="Data/IMAGES/loadpreview.png" />
+    <SpawnerItem display_name="MNGs Level Hotspot" path="Data/XMLStuff/MNGsLevelHotspot.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
+    <SpawnerItem display_name="Overgrowth Checkpoint Hotspot" path="Data/Objects/Hotspots/overgrowth_level_checkpoint.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
     <SpawnerItem display_name="Rabbit Blood Footprint" path="Data/Objects/Decals/footprints/rabbit_blood_footprint.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/footprints/rabbitbloodprint.png" />
     <SpawnerItem display_name="Dripping Rust Spot" path="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/dripping_rust_spot.png" />
     <SpawnerItem display_name="Pooled Stain" path="Data/Objects/Decals/crete_stains/pooled_stain.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/pooled_stain.png" />
@@ -2631,7 +2631,7 @@
     <SpawnerItem display_name="pine_trees.xml" path="Data/Objects/COGC2018/Terrain/Terrain_objects/pine_trees.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Blood Drop Splat" path="Data/Objects/Decals/blooddropsplat.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/blooddropsplat.png" />
     <SpawnerItem display_name="Placeholder" path="Data/Objects/placeholder/empty_placeholder.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
-    <SpawnerItem display_name="Overgrowth Checkpoint Hotspot" path="Data/Objects/Hotspots/overgrowth_level_checkpoint.xml" thumbnail_path="Data/IMAGES/loadpreview.png" />
+    <SpawnerItem display_name="Overgrowth Checkpoint Hotspot" path="Data/Objects/Hotspots/overgrowth_level_checkpoint.xml" thumbnail_path="Data/images/COGC2018/MNG_Dialogue/loadpreview.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Female Dog Scout (pointy)" path="Data/BC_Dog_scout_Female/Dog_scout_Female_pointy_actor.xml" thumbnail_path="Data/BC_Dog_scout_Female/Dog_scout_Female_pointy.png" />
     <SpawnerItem display_name="Female Dog Scout (Perky)" path="Data/BC_Dog_scout_Female/Dog_scout_Female_Perky_actor.xml" thumbnail_path="Data/BC_Dog_scout_Female/Dog_scout_Female_Perky.png" />
