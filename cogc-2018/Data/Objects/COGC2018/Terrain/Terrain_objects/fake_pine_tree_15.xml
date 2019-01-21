@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Object>
+
+<Model>Data/Models/COGC2018/Terrain/terrain_objects/fake_pine_tree_02.obj</Model>
+	<ColorMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_07_c.png</ColorMap>
+	<NormalMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_07_n.png</NormalMap>
+
+	<ShaderName>envobject #TANGENT #ALPHA</ShaderName>
+	<GroundOffset>0.45</GroundOffset>
+<flags no_collision=true />
+    
+</Object>
