@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Object>
 
-<Model>Data/Models/COGC2018/Terrain/terrain_objects/fake_pine_tree_02.obj</Model>
+<Model>Data/Models/COGC2018/Terrain/terrain_objects/fake_pine_tree_group.obj</Model>
 	<ColorMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png</ColorMap>
 	<NormalMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_n.png</NormalMap>
 		<WindMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_r.png</WindMap>
