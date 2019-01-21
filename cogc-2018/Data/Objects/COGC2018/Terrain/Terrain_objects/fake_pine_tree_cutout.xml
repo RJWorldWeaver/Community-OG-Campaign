@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Object>
+
+<Model>Data/Models/COGC2018/Terrain/terrain_objects/fake_pine_tree_cutout.obj</Model>
+	<ColorMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png</ColorMap>
+	<NormalMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_n.png</NormalMap>
+		<WindMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_r.png</WindMap>
+	<TranslucencyMap>Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_t.png</TranslucencyMap>
+		
+	<ShaderName>envobject #TANGENT #ALPHA #PLANT</ShaderName>
+	<GroundOffset>0.45</GroundOffset>
+	
+<flags no_collision=true double_sided=true/>
+    
+</Object>
