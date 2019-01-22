@@ -59,7 +59,7 @@
     <RayToSun r0="-0.323438" r1="0.134516" r2="0.936639" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="108.196" t1="100.494" t2="-416.519" s0="1" s1="1" s2="1" q0="0.103089" q1="0.19762" q2="-0.0209031" q3="0.974619" euler_x="0.210765" euler_y="0.400108" euler_z="0" id="1">
+    <CameraObject t0="244.106" t1="107.974" t2="-277.393" s0="1" s1="1" s2="1" q0="-0.154396" q1="0.289012" q2="-0.0472889" q3="-0.943609" euler_x="0.324371" euler_y="-0.594423" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <ReflectionCaptureObject t0="-242.131" t1="125.747" t2="28.0853" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" gicoeff00="0.0912476" gicoeff01="0.144806" gicoeff02="0.163437" gicoeff03="0.154327" gicoeff04="0.221039" gicoeff05="0.236877" gicoeff06="0.14769" gicoeff07="0.243408" gicoeff08="0.299133" gicoeff09="0.0713272" gicoeff10="0.0909729" gicoeff11="0.0703125" gicoeff12="0.177795" gicoeff13="0.248566" gicoeff14="0.259399" gicoeff15="0.0816956" gicoeff16="0.129333" gicoeff17="0.147873">
@@ -1076,6 +1076,14 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <Hotspot t0="111.302" t1="71.134" t2="-434.749" s0="41.2472" s1="10.5475" s2="67.3337" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="90" type_file="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function_name&quot;:&quot;set_enabled&quot;,&quot;identifier&quot;:431,&quot;identifier_type&quot;:0},{&quot;enabled&quot;:false,&quot;function_name&quot;:&quot;set_enabled&quot;,&quot;identifier&quot;:433,&quot;identifier_type&quot;:0},{&quot;character_team&quot;:&quot;&quot;,&quot;function_name&quot;:&quot;on_character_enter_exit&quot;,&quot;hotspot_trigger_type&quot;:0,&quot;object_id&quot;:-1,&quot;reference_string&quot;:&quot;&quot;,&quot;target_character_type&quot;:3},{&quot;enabled&quot;:true,&quot;function_name&quot;:&quot;set_enabled&quot;,&quot;identifier&quot;:433,&quot;identifier_type&quot;:0},{&quot;enabled&quot;:false,&quot;function_name&quot;:&quot;set_enabled&quot;,&quot;identifier&quot;:431,&quot;identifier_type&quot;:0},{&quot;character_team&quot;:&quot;&quot;,&quot;function_name&quot;:&quot;on_character_enter_exit&quot;,&quot;hotspot_trigger_type&quot;:1,&quot;object_id&quot;:-1,&quot;reference_string&quot;:&quot;&quot;,&quot;target_character_type&quot;:3},{&quot;function_name&quot;:&quot;go_to_line&quot;,&quot;line&quot;:0}]}&#x0A;' />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <Decal t0="-566.292" t1="16.4223" t2="-243.639" s0="0.843199" s1="1" s2="1.22893" q0="-0.04748" q1="0.413583" q2="0.0229715" q3="0.908937" euler_x="-0.102657" euler_y="0.854166" euler_z="0.00378392" id="91" type_file="Data/Objects/Decals/crete_stains/leaky_rust.xml" color_r="0" color_g="0" color_b="0" overbright="0">
         <parameters />
     </Decal>
@@ -1086,9 +1094,6 @@
         <parameters />
     </Decal>
     <EnvObject t0="-464.611" t1="31.1578" t2="-11.2958" s0="5.2023" s1="4.03392" s2="3.82079" q0="-0.143423" q1="-0.747216" q2="0.0458514" q3="-0.647298" euler_x="2.50298" euler_y="1.37296" euler_z="2.23317" id="94" color_r="0.282353" color_g="0.264637" color_b="0.264637" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope_mossy.xml">
-        <parameters />
-    </EnvObject>
-    <EnvObject t0="113.283" t1="93.0698" t2="-445.492" s0="2.73376" s1="2.73376" s2="2.73376" q0="0" q1="-0.551937" q2="0" q3="0.833886" euler_x="0" euler_y="11.397" euler_z="0" id="103" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-1024" t1="-20" t2="0" s0="1024" s1="1" s2="1500" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="104" color_r="0.337255" color_g="0.337252" color_b="0.337252" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
@@ -1288,9 +1293,6 @@
     <Decal t0="-512.725" t1="16.5582" t2="375.06" s0="23.7066" s1="73.8848" s2="376.374" q0="0" q1="0.0883605" q2="0" q3="0.996088" euler_x="0" euler_y="0.176952" euler_z="0" id="151" type_file="Data/Objects/Decals/water_froth.xml" color_r="0.496094" color_g="0.568627" color_b="0.454902" overbright="0">
         <parameters />
     </Decal>
-    <EnvObject t0="113.909" t1="92.4078" t2="-444.718" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="152" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
-        <parameters />
-    </EnvObject>
     <Decal t0="-474.923" t1="16.4921" t2="-594.073" s0="93.3606" s1="93.3606" s2="93.3606" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="153" type_file="Data/Objects/Decals/water_froth.xml" color_r="0.756945" color_g="0.811765" color_b="0.725813" overbright="0">
         <parameters />
     </Decal>
@@ -2600,6 +2602,225 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <Group t0="107.171" t1="92.735" t2="-515.341" s0="176.935" s1="32.5332" s2="162.368" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="431" version="1">
+        <parameters />
+        <Group t0="129.084" t1="92.735" t2="-443.945" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="174" version="1">
+            <parameters />
+            <EnvObject t0="113.368" t1="92.735" t2="-445.901" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.551937" q2="0" q3="0.833886" euler_x="0" euler_y="-1.16937" euler_z="0" id="103" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="130.072" t1="92.735" t2="-444.246" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.933676" q2="0" q3="0.358121" euler_x="3.14159" euler_y="-0.732509" euler_z="3.14159" id="200" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="144.469" t1="92.735" t2="-442.898" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.934147" q2="0" q3="-0.356889" euler_x="-3.14159" euler_y="0.729871" euler_z="-3.14159" id="234" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="94.9613" t1="92.735" t2="-467.109" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.688056" q2="0" q3="0.725658" euler_x="0" euler_y="-1.51761" euler_z="0" id="184" version="1">
+            <parameters />
+            <EnvObject t0="96.0787" t1="92.735" t2="-482.907" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.974277" q2="0" q3="0.225353" euler_x="-3.14159" euler_y="-0.45461" euler_z="3.14159" id="185" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="95.3139" t1="92.735" t2="-466.138" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.923936" q2="0" q3="-0.382547" euler_x="-3.14159" euler_y="0.785104" euler_z="-3.14159" id="189" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="94.7339" t1="92.735" t2="-451.69" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.432312" q2="0" q3="-0.901724" euler_x="0" euler_y="0.89411" euler_z="0" id="190" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="132.181" t1="92.735" t2="-484.28" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.999985" q2="0" q3="-0.00553963" euler_x="3.14159" euler_y="0.0110793" euler_z="3.14159" id="196" version="1">
+            <parameters />
+            <EnvObject t0="147.875" t1="92.735" t2="-482.15" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.830816" q2="0" q3="-0.556548" euler_x="3.14159" euler_y="1.18045" euler_z="3.14159" id="201" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="131.19" t1="92.735" t2="-483.99" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.352943" q2="0" q3="-0.935645" euler_x="0" euler_y="0.721429" euler_z="0" id="202" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="116.809" t1="92.735" t2="-485.497" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.362059" q2="0" q3="-0.932156" euler_x="0" euler_y="-0.740951" euler_z="0" id="203" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="136.913" t1="92.735" t2="-472.949" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.914109" q2="0" q3="0.405469" euler_x="3.14159" euler_y="-0.834983" euler_z="3.14159" id="213" version="1">
+            <parameters />
+            <EnvObject t0="148.911" t1="92.735" t2="-483.286" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.986056" q2="0" q3="-0.166416" euler_x="-3.14159" euler_y="0.334388" euler_z="-3.14159" id="214" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="136.472" t1="92.735" t2="-472.015" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.705937" q2="0" q3="-0.708274" euler_x="-6.38707e-006" euler_y="1.56759" euler_z="-6.36599e-006" id="215" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="125.811" t1="92.735" t2="-462.247" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.0525316" q2="0" q3="-0.998619" euler_x="0" euler_y="0.105112" euler_z="0" id="216" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="102.789" t1="92.735" t2="-496.112" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.942315" q2="0" q3="-0.334726" euler_x="-3.14159" euler_y="0.682629" euler_z="-3.14159" id="222" version="1">
+            <parameters />
+            <EnvObject t0="113.751" t1="92.735" t2="-484.68" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.601036" q2="0" q3="-0.799222" euler_x="0" euler_y="1.28959" euler_z="0" id="237" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="101.833" t1="92.735" t2="-496.502" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.0249369" q2="0" q3="-0.999689" euler_x="0" euler_y="0.0498789" euler_z="0" id="240" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="91.5126" t1="92.735" t2="-506.629" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.648986" q2="0" q3="-0.760801" euler_x="1.41308e-006" euler_y="-1.4125" euler_z="-1.51878e-006" id="243" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="140.009" t1="92.735" t2="-513.283" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.400399" q2="0" q3="-0.916341" euler_x="0" euler_y="0.823904" euler_z="0" id="257" version="1">
+            <parameters />
+            <EnvObject t0="127.896" t1="92.735" t2="-503.079" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.171876" q2="0" q3="-0.985119" euler_x="0" euler_y="-0.345467" euler_z="0" id="258" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="140.459" t1="92.735" t2="-514.212" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.712174" q2="0" q3="-0.702003" euler_x="3.14159" euler_y="-1.55645" euler_z="-3.14159" id="259" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="151.229" t1="92.735" t2="-523.862" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.998895" q2="0" q3="-0.0469988" euler_x="3.14159" euler_y="-0.0940323" euler_z="-3.14159" id="261" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="86.3845" t1="92.735" t2="-470.102" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="-3.14159" euler_y="0.353898" euler_z="-3.14159" id="287" version="1">
+            <parameters />
+            <EnvObject t0="100.449" t1="92.735" t2="-462.821" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.723709" q2="0" q3="-0.690105" euler_x="-3.14159" euler_y="1.52327" euler_z="-3.14159" id="289" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="85.3539" t1="92.735" t2="-470.163" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.188176" q2="0" q3="-0.982135" euler_x="0" euler_y="0.37861" euler_z="0" id="290" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="72.3162" t1="92.735" t2="-476.416" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.515752" q2="0" q3="-0.856738" euler_x="0" euler_y="-1.08377" euler_z="0" id="293" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="52.2614" t1="92.735" t2="-493.266" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="299" version="1">
+            <parameters />
+            <EnvObject t0="45.7381" t1="92.735" t2="-478.834" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.0503347" q2="0" q3="-0.998733" euler_x="0" euler_y="0.100712" euler_z="0" id="300" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="52.2669" t1="92.735" t2="-494.298" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.539212" q2="0" q3="-0.84217" euler_x="0" euler_y="-1.139" euler_z="0" id="301" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="57.818" t1="92.735" t2="-507.65" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.963743" q2="0" q3="-0.266833" euler_x="3.14159" euler_y="-0.540211" euler_z="-3.14159" id="303" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="89.4809" t1="92.735" t2="-510.437" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.181478" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364978" euler_z="0" id="316" version="1">
+            <parameters />
+            <EnvObject t0="75.4974" t1="92.735" t2="-517.874" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.694104" q2="0" q3="-0.719875" euler_x="-2.27069e-006" euler_y="-1.53436" euler_z="2.355e-006" id="318" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="90.5108" t1="92.735" t2="-510.365" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.983163" q2="0" q3="-0.182733" euler_x="-3.14159" euler_y="-0.367531" euler_z="3.14159" id="321" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="103.478" t1="92.735" t2="-503.968" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.853868" q2="0" q3="0.52049" euler_x="-3.14159" euler_y="1.09485" euler_z="-3.14159" id="322" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="107.375" t1="92.735" t2="-513.999" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="-3.14159" euler_y="0.353898" euler_z="-3.14159" id="329" version="1">
+            <parameters />
+            <EnvObject t0="121.44" t1="92.735" t2="-506.718" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.723709" q2="0" q3="-0.690105" euler_x="-3.14159" euler_y="1.52327" euler_z="-3.14159" id="330" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="106.345" t1="92.735" t2="-514.06" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.188176" q2="0" q3="-0.982135" euler_x="0" euler_y="0.37861" euler_z="0" id="331" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="93.3072" t1="92.735" t2="-520.313" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.515752" q2="0" q3="-0.856738" euler_x="0" euler_y="-1.08377" euler_z="0" id="332" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="73.2524" t1="92.735" t2="-537.163" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="337" version="1">
+            <parameters />
+            <EnvObject t0="66.7291" t1="92.735" t2="-522.731" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.0503347" q2="0" q3="-0.998733" euler_x="0" euler_y="0.100712" euler_z="0" id="339" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="73.2579" t1="92.735" t2="-538.195" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.539212" q2="0" q3="-0.84217" euler_x="0" euler_y="-1.139" euler_z="0" id="340" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="78.809" t1="92.735" t2="-551.547" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.963743" q2="0" q3="-0.266833" euler_x="3.14159" euler_y="-0.540211" euler_z="-3.14159" id="341" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="110.472" t1="92.735" t2="-554.334" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.181478" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364978" euler_z="0" id="346" version="1">
+            <parameters />
+            <EnvObject t0="96.4884" t1="92.735" t2="-561.771" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.694104" q2="0" q3="-0.719875" euler_x="-2.27069e-006" euler_y="-1.53436" euler_z="2.355e-006" id="348" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="111.502" t1="92.735" t2="-554.262" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.983163" q2="0" q3="-0.182733" euler_x="-3.14159" euler_y="-0.367531" euler_z="3.14159" id="349" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="124.469" t1="92.735" t2="-547.865" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.853868" q2="0" q3="0.52049" euler_x="-3.14159" euler_y="1.09485" euler_z="-3.14159" id="350" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="77.0571" t1="92.735" t2="-532.608" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="-0.372545" q2="0" q3="-0.928014" euler_x="0" euler_y="0.7635" euler_z="0" id="357" version="1">
+            <parameters />
+            <EnvObject t0="64.3508" t1="92.735" t2="-523.154" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.201545" q2="0" q3="-0.979479" euler_x="0" euler_y="-0.40587" euler_z="0" id="358" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="77.5629" t1="92.735" t2="-533.508" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.733048" q2="0" q3="-0.680177" euler_x="-3.14159" euler_y="-1.49601" euler_z="-3.14159" id="359" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="88.8949" t1="92.735" t2="-542.49" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.999859" q2="0" q3="-0.0168138" euler_x="-3.14159" euler_y="-0.0336291" euler_z="-3.14159" id="362" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="42.934" t1="92.735" t2="-555.772" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.368185" q2="0" q3="-0.929753" euler_x="0" euler_y="-0.754112" euler_z="0" id="377" version="1">
+            <parameters />
+            <EnvObject t0="32.8174" t1="92.735" t2="-567.958" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.820189" q2="0" q3="-0.572093" euler_x="-3.14159" euler_y="-1.21811" euler_z="3.14159" id="379" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="43.8597" t1="92.735" t2="-555.315" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.999942" q2="0" q3="0.0108016" euler_x="-3.14159" euler_y="0.0216037" euler_z="-3.14159" id="381" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="53.4308" t1="92.735" t2="-544.476" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.737125" q2="0" q3="0.675758" euler_x="-3.14159" euler_y="1.48399" euler_z="-3.14159" id="383" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="80.1535" t1="92.735" t2="-572.943" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.930064" q2="0" q3="-0.367399" euler_x="-3.14159" euler_y="-0.752421" euler_z="3.14159" id="395" version="1">
+            <parameters />
+            <EnvObject t0="92.9638" t1="92.735" t2="-582.256" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.978348" q2="0" q3="0.206968" euler_x="-3.14159" euler_y="0.416949" euler_z="3.14159" id="396" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="79.6378" t1="92.735" t2="-572.049" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.676106" q2="0" q3="0.736805" euler_x="0" euler_y="1.48494" euler_z="0" id="397" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="68.207" t1="92.735" t2="-563.193" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.0112748" q2="0" q3="0.999937" euler_x="0" euler_y="0.02255" euler_z="0" id="398" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="167.03" t1="92.735" t2="-526.785" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.0937963" q2="0" q3="-0.995591" euler_x="0" euler_y="-0.187869" euler_z="0" id="404" version="1">
+            <parameters />
+            <EnvObject t0="151.955" t1="92.735" t2="-531.641" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.627719" q2="0" q3="-0.77844" euler_x="1.14051e-006" euler_y="-1.35724" euler_z="-1.03454e-006" id="405" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="168.057" t1="92.735" t2="-526.895" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.963149" q2="0" q3="-0.268966" euler_x="-3.14159" euler_y="-0.544639" euler_z="-3.14159" id="406" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="181.949" t1="92.735" t2="-522.883" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.896554" q2="0" q3="0.442935" euler_x="-3.14159" euler_y="0.91774" euler_z="-3.14159" id="407" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="132.907" t1="92.735" t2="-549.948" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.753086" q2="0" q3="-0.657922" euler_x="-3.14159" euler_y="-1.43611" euler_z="3.14159" id="412" version="1">
+            <parameters />
+            <EnvObject t0="136.956" t1="92.735" t2="-565.26" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.99112" q2="0" q3="-0.132976" euler_x="-3.14159" euler_y="-0.266742" euler_z="3.14159" id="413" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="133.072" t1="92.735" t2="-548.929" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.883981" q2="0" q3="0.467523" euler_x="-3.14159" euler_y="0.972974" euler_z="-3.14159" id="414" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="129.804" t1="92.735" t2="-534.844" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.345827" q2="0" q3="0.938299" euler_x="0" euler_y="0.706242" euler_z="0" id="415" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="170.127" t1="92.735" t2="-567.119" s0="48.0942" s1="32.5232" s2="19.5675" q0="0" q1="0.995057" q2="0" q3="0.09931" euler_x="3.14159" euler_y="0.198948" euler_z="3.14159" id="427" version="1">
+            <parameters />
+            <EnvObject t0="185.147" t1="92.735" t2="-562.096" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.774951" q2="0" q3="0.632022" euler_x="3.14159" euler_y="1.36832" euler_z="3.14159" id="428" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="169.099" t1="92.735" t2="-567.02" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="0.263627" q2="0" q3="0.964625" euler_x="0" euler_y="0.533561" euler_z="0" id="429" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="155.253" t1="92.735" t2="-571.186" s0="3.21185" s1="2.70943" s2="3.17578" q0="0" q1="-0.447895" q2="0" q3="0.894087" euler_x="0" euler_y="-0.928821" euler_z="0" id="430" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
     <PathPointObject t0="-550.814" t1="18.2188" t2="-238.424" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="432" type_file="">
         <parameters>
             <parameter name="Type" type="string" val="Data/Animations/swordrelax.anm" />
@@ -2610,6 +2831,225 @@
             <Connection id="378" />
         </Connections>
     </PathPointObject>
+    <Group t0="107.819" t1="92.4078" t2="-514.76" s0="174.97" s1="32.2712" s2="161.451" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="433" version="1">
+        <parameters />
+        <Group t0="129.848" t1="92.4078" t2="-443.727" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="84" version="1">
+            <parameters />
+            <EnvObject t0="113.909" t1="92.4078" t2="-444.718" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="152" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="129.217" t1="92.4078" t2="-443.837" s0="1" s1="1" s2="1" q0="0" q1="-0.580919" q2="0" q3="0.813962" euler_x="0" euler_y="-1.23971" euler_z="0" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="143.301" t1="92.4078" t2="-443.727" s0="1" s1="1" s2="1" q0="0" q1="-0.975952" q2="0" q3="0.217985" euler_x="3.14159" euler_y="-0.439499" euler_z="-3.14159" id="235" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="95.725" t1="92.4078" t2="-466.891" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.688056" q2="0" q3="0.725658" euler_x="0" euler_y="-1.51761" euler_z="0" id="176" version="1">
+            <parameters />
+            <EnvObject t0="95.867" t1="92.4078" t2="-482.86" s0="1" s1="1" s2="1" q0="0" q1="-0.688056" q2="0" q3="0.725658" euler_x="0" euler_y="-1.51761" euler_z="0" id="177" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="95.8013" t1="92.4078" t2="-467.527" s0="1" s1="1" s2="1" q0="0" q1="-0.981599" q2="0" q3="0.190953" euler_x="-3.14159" euler_y="-0.384267" euler_z="3.14159" id="180" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="96.4401" t1="92.4078" t2="-453.457" s0="1" s1="1" s2="1" q0="0" q1="-0.858193" q2="0" q3="-0.513326" euler_x="-3.14159" euler_y="1.07811" euler_z="-3.14159" id="182" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="132.944" t1="92.4078" t2="-484.062" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.999985" q2="0" q3="-0.00553963" euler_x="3.14159" euler_y="0.0110793" euler_z="3.14159" id="191" version="1">
+            <parameters />
+            <EnvObject t0="148.872" t1="92.4078" t2="-482.895" s0="1" s1="1" s2="1" q0="0" q1="-0.999985" q2="0" q3="-0.00553954" euler_x="3.14159" euler_y="0.0110791" euler_z="3.14159" id="192" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="133.575" t1="92.4078" t2="-483.945" s0="1" s1="1" s2="1" q0="0" q1="-0.810731" q2="0" q3="-0.585419" euler_x="-3.14159" euler_y="1.25079" euler_z="3.14159" id="193" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="119.492" t1="92.4078" t2="-484.211" s0="1" s1="1" s2="1" q0="0" q1="-0.212575" q2="0" q3="-0.977145" euler_x="0" euler_y="0.42842" euler_z="0" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="137.676" t1="92.4078" t2="-472.731" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.914109" q2="0" q3="0.405469" euler_x="3.14159" euler_y="-0.834983" euler_z="3.14159" id="205" version="1">
+            <parameters />
+            <EnvObject t0="149.109" t1="92.4078" t2="-483.881" s0="1" s1="1" s2="1" q0="0" q1="-0.914109" q2="0" q3="0.405469" euler_x="3.14159" euler_y="-0.834983" euler_z="3.14159" id="210" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="138.182" t1="92.4078" t2="-473.125" s0="1" s1="1" s2="1" q0="0" q1="-0.979594" q2="0" q3="-0.200987" euler_x="3.14159" euler_y="0.404731" euler_z="3.14159" id="211" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="128.647" t1="92.4078" t2="-462.758" s0="1" s1="1" s2="1" q0="0" q1="-0.59498" q2="0" q3="-0.80374" euler_x="0" euler_y="1.27448" euler_z="0" id="212" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="103.553" t1="92.4078" t2="-495.894" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.942315" q2="0" q3="-0.334726" euler_x="-3.14159" euler_y="0.682629" euler_z="-3.14159" id="217" version="1">
+            <parameters />
+            <EnvObject t0="115.295" t1="92.4078" t2="-485.07" s0="1" s1="1" s2="1" q0="0" q1="-0.942315" q2="0" q3="-0.334726" euler_x="-3.14159" euler_y="0.682629" euler_z="-3.14159" id="218" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="103.974" t1="92.4078" t2="-495.411" s0="1" s1="1" s2="1" q0="0" q1="-0.57256" q2="0" q3="-0.819863" euler_x="0" euler_y="1.21925" euler_z="0" id="219" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="93.1148" t1="92.4078" t2="-504.381" s0="1" s1="1" s2="1" q0="0" q1="0.121266" q2="0" q3="-0.99262" euler_x="0" euler_y="-0.24313" euler_z="0" id="220" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="140.773" t1="92.4078" t2="-513.066" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.400399" q2="0" q3="-0.916341" euler_x="0" euler_y="0.823904" euler_z="0" id="244" version="1">
+            <parameters />
+            <EnvObject t0="129.217" t1="92.4078" t2="-502.042" s0="1" s1="1" s2="1" q0="0" q1="-0.400399" q2="0" q3="-0.916341" euler_x="0" euler_y="0.823904" euler_z="0" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="140.263" t1="92.4078" t2="-512.677" s0="1" s1="1" s2="1" q0="0" q1="0.206411" q2="0" q3="-0.978466" euler_x="0" euler_y="-0.415811" euler_z="0" id="253" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="149.912" t1="92.4078" t2="-522.937" s0="1" s1="1" s2="1" q0="0" q1="0.807024" q2="0" q3="-0.590519" euler_x="3.14159" euler_y="-1.2634" euler_z="-3.14159" id="254" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="87.1482" t1="92.4078" t2="-469.884" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="-3.14159" euler_y="0.353898" euler_z="-3.14159" id="262" version="1">
+            <parameters />
+            <EnvObject t0="101.756" t1="92.4078" t2="-463.431" s0="1" s1="1" s2="1" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="3.14159" euler_y="0.353898" euler_z="3.14159" id="269" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="87.7023" t1="92.4078" t2="-469.562" s0="1" s1="1" s2="1" q0="0" q1="-0.698994" q2="0" q3="-0.715127" euler_x="0" euler_y="1.54797" euler_z="0" id="279" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="74.529" t1="92.4078" t2="-474.547" s0="1" s1="1" s2="1" q0="0" q1="-0.0427874" q2="0" q3="-0.999084" euler_x="0" euler_y="0.0856009" euler_z="0" id="283" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="53.0251" t1="92.4078" t2="-493.048" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="294" version="1">
+            <parameters />
+            <EnvObject t0="47.3575" t1="92.4078" t2="-478.118" s0="1" s1="1" s2="1" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="295" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="52.7329" t1="92.4078" t2="-492.477" s0="1" s1="1" s2="1" q0="0" q1="-0.0151836" q2="0" q3="-0.999885" euler_x="0" euler_y="0.0303684" euler_z="0" id="296" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="57.0098" t1="92.4078" t2="-505.897" s0="1" s1="1" s2="1" q0="0" q1="0.656376" q2="0" q3="-0.754434" euler_x="0" euler_y="-1.43201" euler_z="0" id="297" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="90.2446" t1="92.4078" t2="-510.219" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.181478" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364978" euler_z="0" id="304" version="1">
+            <parameters />
+            <EnvObject t0="75.709" t1="92.4078" t2="-516.834" s0="1" s1="1" s2="1" q0="0" q1="0.181477" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364977" euler_z="0" id="308" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="89.694" t1="92.4078" t2="-510.547" s0="1" s1="1" s2="1" q0="0" q1="0.718989" q2="0" q3="-0.695022" euler_x="-3.14159" euler_y="-1.53691" euler_z="3.14159" id="310" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="102.811" t1="92.4078" t2="-505.418" s0="1" s1="1" s2="1" q0="0" q1="0.999306" q2="0" q3="-0.0372522" euler_x="-3.14159" euler_y="-0.0745216" euler_z="3.14159" id="313" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="108.139" t1="92.4078" t2="-513.781" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="-3.14159" euler_y="0.353898" euler_z="-3.14159" id="325" version="1">
+            <parameters />
+            <EnvObject t0="122.747" t1="92.4078" t2="-507.328" s0="1" s1="1" s2="1" q0="0" q1="-0.984385" q2="0" q3="-0.176027" euler_x="3.14159" euler_y="0.353898" euler_z="3.14159" id="326" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="108.693" t1="92.4078" t2="-513.459" s0="1" s1="1" s2="1" q0="0" q1="-0.698994" q2="0" q3="-0.715127" euler_x="0" euler_y="1.54797" euler_z="0" id="327" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="95.5201" t1="92.4078" t2="-518.444" s0="1" s1="1" s2="1" q0="0" q1="-0.0427874" q2="0" q3="-0.999084" euler_x="0" euler_y="0.0856009" euler_z="0" id="328" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="74.0161" t1="92.4078" t2="-536.945" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="333" version="1">
+            <parameters />
+            <EnvObject t0="68.3485" t1="92.4078" t2="-522.015" s0="1" s1="1" s2="1" q0="0" q1="-0.593211" q2="0" q3="-0.805047" euler_x="0" euler_y="1.27008" euler_z="0" id="334" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="73.7239" t1="92.4078" t2="-536.374" s0="1" s1="1" s2="1" q0="0" q1="-0.0151836" q2="0" q3="-0.999885" euler_x="0" euler_y="0.0303684" euler_z="0" id="335" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="78.0008" t1="92.4078" t2="-549.794" s0="1" s1="1" s2="1" q0="0" q1="0.656376" q2="0" q3="-0.754434" euler_x="0" euler_y="-1.43201" euler_z="0" id="336" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="111.236" t1="92.4078" t2="-554.116" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.181478" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364978" euler_z="0" id="342" version="1">
+            <parameters />
+            <EnvObject t0="96.7" t1="92.4078" t2="-560.731" s0="1" s1="1" s2="1" q0="0" q1="0.181477" q2="0" q3="-0.983395" euler_x="0" euler_y="-0.364977" euler_z="0" id="343" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="110.685" t1="92.4078" t2="-554.444" s0="1" s1="1" s2="1" q0="0" q1="0.718989" q2="0" q3="-0.695022" euler_x="-3.14159" euler_y="-1.53691" euler_z="3.14159" id="344" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="123.802" t1="92.4078" t2="-549.315" s0="1" s1="1" s2="1" q0="0" q1="0.999306" q2="0" q3="-0.0372522" euler_x="-3.14159" euler_y="-0.0745216" euler_z="3.14159" id="345" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="77.8208" t1="92.4078" t2="-532.391" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="-0.372545" q2="0" q3="-0.928014" euler_x="0" euler_y="0.7635" euler_z="0" id="352" version="1">
+            <parameters />
+            <EnvObject t0="65.621" t1="92.4078" t2="-522.085" s0="1" s1="1" s2="1" q0="0" q1="-0.372545" q2="0" q3="-0.928014" euler_x="0" euler_y="0.7635" euler_z="0" id="353" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="77.2886" t1="92.4078" t2="-532.033" s0="1" s1="1" s2="1" q0="0" q1="0.235863" q2="0" q3="-0.971786" euler_x="0" euler_y="-0.476213" euler_z="0" id="354" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="87.5394" t1="92.4078" t2="-541.693" s0="1" s1="1" s2="1" q0="0" q1="0.824488" q2="0" q3="-0.56588" euler_x="3.14159" euler_y="-1.203" euler_z="-3.14159" id="355" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="43.6977" t1="92.4078" t2="-555.554" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.368185" q2="0" q3="-0.929753" euler_x="0" euler_y="-0.754112" euler_z="0" id="365" version="1">
+            <parameters />
+            <EnvObject t0="32.7583" t1="92.4078" t2="-567.189" s0="1" s1="1" s2="1" q0="0" q1="0.368185" q2="0" q3="-0.929753" euler_x="0" euler_y="-0.754112" euler_z="0" id="368" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="43.3128" t1="92.4078" t2="-556.067" s0="1" s1="1" s2="1" q0="0" q1="0.839799" q2="0" q3="-0.542898" euler_x="-3.14159" euler_y="-1.14777" euler_z="3.14159" id="374" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="53.5032" t1="92.4078" t2="-546.344" s0="1" s1="1" s2="1" q0="0" q1="0.987653" q2="0" q3="0.156658" euler_x="-3.14159" euler_y="0.314613" euler_z="3.14159" id="376" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="80.9172" t1="92.4078" t2="-572.725" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.930064" q2="0" q3="-0.367399" euler_x="-3.14159" euler_y="-0.752421" euler_z="3.14159" id="385" version="1">
+            <parameters />
+            <EnvObject t0="93.2305" t1="92.4078" t2="-582.895" s0="1" s1="1" s2="1" q0="0" q1="0.930064" q2="0" q3="-0.367399" euler_x="-3.14159" euler_y="-0.752422" euler_z="3.14159" id="389" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="81.4534" t1="92.4078" t2="-573.077" s0="1" s1="1" s2="1" q0="0" q1="0.970465" q2="0" q3="0.241243" euler_x="-3.14159" euler_y="0.487293" euler_z="3.14159" id="393" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="71.0962" t1="92.4078" t2="-563.532" s0="1" s1="1" s2="1" q0="0" q1="0.561304" q2="0" q3="0.82761" euler_x="0" euler_y="1.19192" euler_z="0" id="394" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="167.794" t1="92.4078" t2="-526.567" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.0937963" q2="0" q3="-0.995591" euler_x="0" euler_y="-0.187869" euler_z="0" id="399" version="1">
+            <parameters />
+            <EnvObject t0="152.32" t1="92.4078" t2="-530.517" s0="1" s1="1" s2="1" q0="0" q1="0.0937961" q2="0" q3="-0.995591" euler_x="0" euler_y="-0.187868" euler_z="0" id="400" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="167.194" t1="92.4078" t2="-526.793" s0="1" s1="1" s2="1" q0="0" q1="0.654704" q2="0" q3="-0.755885" euler_x="0" euler_y="-1.42758" euler_z="0" id="401" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="181.01" t1="92.4078" t2="-524.054" s0="1" s1="1" s2="1" q0="0" q1="0.992095" q2="0" q3="-0.125484" euler_x="3.14159" euler_y="-0.25163" euler_z="-3.14159" id="402" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="133.671" t1="92.4078" t2="-549.73" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.753086" q2="0" q3="-0.657922" euler_x="-3.14159" euler_y="-1.43611" euler_z="3.14159" id="408" version="1">
+            <parameters />
+            <EnvObject t0="136.793" t1="92.4078" t2="-565.392" s0="1" s1="1" s2="1" q0="0" q1="0.753086" q2="0" q3="-0.657922" euler_x="-3.14159" euler_y="-1.43611" euler_z="-3.14159" id="409" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="133.865" t1="92.4078" t2="-550.341" s0="1" s1="1" s2="1" q0="0" q1="0.995183" q2="0" q3="-0.0980412" euler_x="-3.14159" euler_y="-0.196398" euler_z="3.14159" id="410" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="131.864" t1="92.4078" t2="-536.399" s0="1" s1="1" s2="1" q0="0" q1="0.806262" q2="0" q3="0.591559" euler_x="-3.14159" euler_y="1.26598" euler_z="-3.14159" id="411" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="170.89" t1="92.4078" t2="-566.901" s0="45.8938" s1="32.2612" s2="19.3762" q0="0" q1="0.995057" q2="0" q3="0.09931" euler_x="3.14159" euler_y="0.198948" euler_z="3.14159" id="416" version="1">
+            <parameters />
+            <EnvObject t0="186.319" t1="92.4078" t2="-562.78" s0="1" s1="1" s2="1" q0="0" q1="0.995057" q2="0" q3="0.09931" euler_x="-3.14159" euler_y="0.198948" euler_z="3.14159" id="418" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="171.488" t1="92.4078" t2="-566.669" s0="1" s1="1" s2="1" q0="0" q1="0.752247" q2="0" q3="0.658882" euler_x="3.14159" euler_y="1.43867" euler_z="3.14159" id="420" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="157.703" t1="92.4078" t2="-569.56" s0="1" s1="1" s2="1" q0="0" q1="0.119986" q2="0" q3="0.992776" euler_x="0" euler_y="0.240551" euler_z="0" id="421" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/OG/PineTree1_A.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
     <PathPointObject t0="-553.344" t1="18.2619" t2="-237.538" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="434" type_file="">
         <parameters>
             <parameter name="Type" type="string" val="" />
@@ -2825,4 +3265,5 @@
     <SpawnerItem display_name="fake_pine_tree_tri_01_cutout.xml" path="Data/Objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail_path="Data/Images/COGC2018/drika_hotspot_thumb.jpg" />
+    <SpawnerItem display_name="Drika Hotspot COGC2018" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail_path="Data/Images/COGC2018/drika_hotspot_thumb.jpg" />
 </RecentItems>
