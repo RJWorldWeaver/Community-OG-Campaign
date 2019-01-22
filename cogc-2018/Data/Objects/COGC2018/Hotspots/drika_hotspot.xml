@@ -2,5 +2,5 @@
 <Type>generic</Type>
 <Hotspot>
 	<BillboardColorMap>Data/UI/spawner/thumbs/Hotspot/empty.png</BillboardColorMap>
-	<Script>hotspots/drika_hotspot.as</Script>
+	<Script>COGC2018/hotspots/drika_hotspot.as</Script>
 </Hotspot>

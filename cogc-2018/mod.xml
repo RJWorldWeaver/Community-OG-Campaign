@@ -29,7 +29,14 @@
 	<Item category="Hotspot" title="Level Lighting Manipulator Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail="Data/UI/COGC2018/spawner/cateye.png"/>
 	<Item category="Hotspot" title="MNGs Level Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLevelHotspot.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
 	<Item category="Hotspot" title="MNGs Start Dialogue Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsStartDialogue.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
-	<Item category="Hotspot" title="Drika Hotspot" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail="Data/Images/COGC2018/drika_hotspot_thumb.jpg" />
+	<Item category="Hotspot" title="Drika Hotspot COGC2018" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail="Data/UI/COGC2018/Spawner/drika_hotspot_thumb.jpg" />
+
+  <Item category="Static Objects"  title="Fake Evergreen Big Group"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_big_group.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
+  <Item category="Static Objects"  title="Fake Evergreen cutout"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_cutout.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
+  <Item category="Static Objects"  title="Fake Evergreen group"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_group.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
+  <Item category="Static Objects"  title="Fake Evergreen Triblade 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
+  <Item category="Static Objects"  title="Fake Evergreen Triblade 02"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_02.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
+  <Item category="Static Objects"  title="Fake Evergreen Triblade cutout 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
 
 	<Item category="Static Objects"  title="Fake Evergreen 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_01.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
 	<Item category="Static Objects"  title="Fake Evergreen 02"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_02.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
