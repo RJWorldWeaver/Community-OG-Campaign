@@ -18,46 +18,14 @@
 
     <NeedsRestart>false</NeedsRestart>
 
-	<Item category="Character"  title="Sassolina"  path="Data/objects/COGC2018/Characters/Sassolina_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Sassolina.png" />
-	<Item category="Character"  title="Cobaia"  path="Data/objects/COGC2018/Characters/Cobaia_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Cobaia.png" />
-	<Item category="Character"  title="Drago"  path="Data/objects/COGC2018/Characters/Drago_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Drago.png" />
-	<Item category="Character"  title="Kaitla"  path="Data/objects/COGC2018/Characters/kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Kaitla.png" />
-	<Item category="Character"  title="Kaitla, Punished"  path="Data/objects/COGC2018/Characters/punished_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/punished_Kaitla.png" />
-	<Item category="Character"  title="Kaitla, Bandaged"  path="Data/objects/COGC2018/Characters/bandaged_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/bandaged_Kaitla.png" />
-	<Item category="Character"  title="Kaitla, Fixed"  path="Data/objects/COGC2018/Characters/fixed_kaitla_actor.xml" thumbnail="Data/UI/COGC2018/spawner/Fixed_Kaitla.png" />
-	<Item category="Character"  title="Kaitla - Guide Prefab"  path="Data/objects/COGC2018/Characters/Kaitla_guide_prefab.xml" thumbnail="Data/UI/COGC2018/spawner/Kaitla.png" />
+
 	<Item category="Hotspot" title="Level Lighting Manipulator Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLvlLightManipulator.xml" thumbnail="Data/UI/COGC2018/spawner/cateye.png"/>
 	<Item category="Hotspot" title="MNGs Level Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsLevelHotspot.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
 	<Item category="Hotspot" title="MNGs Start Dialogue Hotspot" path="Data/Objects/COGC2018/Hotspots/MNGsStartDialogue.xml" thumbnail="Data/images/COGC2018/MNG-Dialogue/loadpreview.png"/>
 	<Item category="Hotspot" title="Drika Hotspot COGC2018" path="Data/Objects/COGC2018/Hotspots/drika_hotspot.xml" thumbnail="Data/UI/COGC2018/Spawner/drika_hotspot_thumb.jpg" />
 
-  <Item category="Static Objects"  title="Fake Evergreen Big Group"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_big_group.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-  <Item category="Static Objects"  title="Fake Evergreen cutout"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_cutout.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-  <Item category="Static Objects"  title="Fake Evergreen group"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_group.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-  <Item category="Static Objects"  title="Fake Evergreen Triblade 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-  <Item category="Static Objects"  title="Fake Evergreen Triblade 02"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_02.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-  <Item category="Static Objects"  title="Fake Evergreen Triblade cutout 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_tri_01_cutout.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
 
-	<Item category="Static Objects"  title="Fake Evergreen 01"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_01.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 02"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_02.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_01_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 03"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_03.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_02_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 04"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_04.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_02_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 05"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_05.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_03_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 06"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_06.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_03_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 07"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_07.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_04_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 08"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_08.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_04_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 09"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_09.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_05_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 10"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_10.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_05_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 11"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_11.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_06_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 12"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_12.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_06_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 13"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_13.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_06_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 14"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_14.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_07_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 15"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_15.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_07_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 16"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_16.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_08_c.png" />
-	<Item category="Static Objects"  title="Fake Evergreen 17"  path="Data/objects/COGC2018/Terrain/Terrain_objects/fake_pine_tree_17.xml" thumbnail="Data/Textures/COGC2018/Terrain/Terrain_objects/pine_tree_08_c.png" />
 
-	<Level title="Going Coastal Terrain Demo" thumbnail="Images/COGC2018/thumb.jpg">COGC2018/01_Going_coastal/01_Going_coastal.xml</Level>
-	<Level title="Going Coastal Terrain Demo" thumbnail="Images/COGC2018/thumb.jpg">COGC2018/Rabbit_Marshlands/Rabbit_Marshlands.xml</Level>
 
 
 </Mod>

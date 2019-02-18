@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Object>
-	<Model>Data/Models/Characters/cats/male_cat/male_cat.obj</Model>
-	<ColorMap>Data/Textures/COGC2018/Characters/Cobaia_c.png</ColorMap>
-	<NormalMap>Data/Textures/COGC2018/Characters/Cobaia_n.png</NormalMap>
-		
-	<ShaderName>cubemapobjchar</ShaderName>
-</Object>

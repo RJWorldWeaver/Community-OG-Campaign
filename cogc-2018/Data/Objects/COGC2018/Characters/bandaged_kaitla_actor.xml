@@ -1,5 +1,0 @@
-<?xml version="1.0" ?>
-<Actor>
-	<Character>Data/Characters/COGC2018/bandaged_Kaitla.xml</Character>
-    <ControlScript>enemycontrol.as</ControlScript>
-</Actor>
